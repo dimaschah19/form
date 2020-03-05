@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+<object class="svg-icon" id="svg-icon" type="image/svg+xml" data="./img/123.svg"></object>
+
+<form>
+    <label>ИМЯ
+        <input type="email" id="email" data-rule="email" required class="valid">
+        <!--<input type="text" id="name" data-rule="name" required pattern="^[a-zA-Z\s]+$" >-->
+        <label for="point1">Point 1
+            <input type="radio" name="point" id="point1" required>
+        </label>
+        <label for="point2">Point 2
+            <input type="radio" name="point" id="point2">
+        </label>
+        <input type="submit" id="button" onclick="myFunction()">
+        <span class="error" aria-live="polite"></span>
+    </label>
+</form>
+<!--<script src="app.js"></script>-->
+
+
+</body>
+</html>
