@@ -59,7 +59,7 @@ $(document).ready(function () {
     $.ajax(
         {
           type: "POST",
-          url: "form.php",
+          url: "https://dimaschah19.github.io/form/form.php",
           data: $(this).serialize(),
           success: function (data) {
             document.getElementById("elem").style.display = "none";
